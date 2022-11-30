@@ -1,0 +1,216 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+}
+.title{
+   font-family: "Poppins";
+   margin-top: 150px;
+   margin-left: 277px;
+}
+    /* border: 1px solid red; */
+.App-link{
+    text-decoration: none;
+    color: #2D9CDB;
+    font-size: 1.9vmin;
+}
+.bigTitle{
+    width: 66%;
+    font-size: 3.4vmin;
+}
+.mainImage img{
+    border-radius: 18px;
+    width: 100%;
+    margin-inline: 52px;
+    size: cover;
+}
+.mainImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.generalContent{
+    margin-inline: 277px;
+}
+.content{
+    font-family: "Poppins";
+    width: 23%;
+}
+.storyTitle{
+    font-size: 3.2vmin;
+}
+.storyText{
+    font-size: 1.9vmin;
+    margin-bottom: 40px;
+}
+.inputText{
+    font-size: 1.4vmin;
+    color: #828282;
+}
+.servicesTitle h1{
+    width: 346px;
+    height: 108px;
+    font-size: 3.8vmin;
+    margin-top: 200px;
+}
+.material-symbols-outlined{
+      color:white
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    margin-bottom: 140px;
+}
+.imageBoxes h1{
+    font-size: 3.8vmin;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.boxBody{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.spaceBox{
+    margin-right: 20px;
+    position: relative;
+    top: 160px;
+}
+.aMore{
+    text-decoration: none;
+    color: #2D9CDB;
+    font-size: 2.5vmin;
+}
+#arrow{
+    color: #2D9CDB;
+}
+.seeMore{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.meatTeam{
+    display: flex;
+    font-family: "Poppins";
+    justify-content: space-between;
+    align-items: center;
+}
+.textTeam{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.subtitle{
+    color: #EB5757;
+    font-size: 1.9vmin;
+    width: 280px;
+}
+.titleTeam{
+    width: 280px;
+    font-size: 3.8vmin;
+}
+.contemtTeam{
+    font-size: 1.7vmin;
+    width: 273px;
+}
+.imgTeam{
+    display: flex;
+    align-items: center;
+}
+#girl{
+    border-radius: 24px;
+    padding-right: 12px;
+    width: 100%;
+}
+#boy1{
+    border-radius: 24px;
+    width: 90%;
+    padding: 12px;
+}
+#boy2{
+    border-radius: 24px;
+    width: 95%;
+    padding: 12px;
+}
+.boys{
+    display: flex;
+    flex-direction: column;
+}
+.finalCont{
+    font-family: 'Poppins';
+    margin-top: 200px;
+}
+.finalText{
+    font-size: 3.8vmin;
+    width: 80%;
+}
+.menFinal h3{
+    font-size: 2.5vmin;
+}
+.menFinal p{
+    color: #828282;
+    font-size: 1.9vmin;
+}
+.menFinal img{
+    width: 105px;
+    border-radius: 24px;
+    margin-inline: 18px;
+}
+.menFinal{
+    display: flex;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+@media only screen and (max-width:850px){
+    .title{
+        margin-left: 80px;
+    }
+    .content{
+        width: 40%;
+    }
+    .generalContent{
+        margin-inline: 50px;
+    }
+    .title{
+        margin-top: 120px;
+    }
+    .servicesTitle h1{
+        margin-top: 130px;
+    }
+    .boxes{
+        margin-top: 0px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxBody{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .spaceBox{
+        position: relative;
+    }
+    .spaceBox{
+        margin-right: 0px;
+        top: 0px;
+    }
+    .seeMore{
+        display: flex;
+        flex-direction: initial;
+    }
+    .meatTeam{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contemtTeam{
+        width: 153px;
+    }
+    .finalCont{
+        font-family: 'Poppins';
+        margin-top: 80px;
+    }
+    .menFinal{
+        margin-bottom: 100px;
+    }
+}

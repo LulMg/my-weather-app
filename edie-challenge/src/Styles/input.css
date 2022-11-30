@@ -1,0 +1,44 @@
+.inputBox{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    width: 330px;
+    display: flex;
+}
+input{
+    padding: 15px;
+    border: 1px solid red;
+    border-color: transparent;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    flex-grow: 1;
+}
+input::placeholder{
+    font-family: "Poppins";
+    font-size: 1.9vmin;
+    color: #BDBDBD;
+}
+.inputBox button{
+    width: 6rem;
+    font-family: "Poppins";
+    font-size: 1.9vmin;
+    border-radius: 12px;
+    color: white;
+    border: #2D9CDB;
+    background-color: #2D9CDB;
+    margin: 4px;
+    z-index: 2;
+}
+@media only screen and (max-width:750px){
+    .inputBox{
+        width: 250px;
+        padding: 0px;
+    }
+    input{
+        padding: 9px;
+    }
+    .inputBox button{
+        width: 8rem;
+        margin: 4px;
+        z-index: 2;
+    }
+}
