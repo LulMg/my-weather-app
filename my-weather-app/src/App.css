@@ -1,0 +1,79 @@
+main{
+  display: grid;
+  grid-template-columns: 30% auto;
+  height: 100vh;
+}
+.mainView{
+  background-color: #1E213A;
+  color: #A09FB1;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28vh;
+  background: linear-gradient(
+    rgba(30, 33, 58, 0.95) 100%,
+    rgba(30, 33, 58, 0.95) 100%),
+    url("https://s3-alpha-sig.figma.com/img/905f/e98a/3a30d42f1ad20115bbf8830bf40ab11b?Expires=1673222400&Signature=aKUVrMaCtol5Sr2uyyJ0TBqMSZrasKF0XJHjTRvjo8m1Wgo827o9I16BYW5OrMAcmNIRTf7h3yOWUP4MtOp04bK5WsRfS5pA5RiQUQc6eOWsGVO1XT1DOQ6morPvaR6xtCk~RNgG-sr4IKyrMR3c9r92eQD2iqsR1VlsW8rKirb4qEuYebiPh1FoQbj-~lvCtKZKH0Ynw7jcroMM54aEUhawWd7CfWRq8zBvDD1DPhAPmh6HtxRFgBGGeTfI9O6btQBQFEc8M6oEDijK9x8eVW5ptctEpq8pEGbeDAke4ywBkwg3PKujHYksO3VmaIklVgPSAdZD5oA1XTjhYidrdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4")top left -18%/25% no-repeat,
+    url("https://s3-alpha-sig.figma.com/img/905f/e98a/3a30d42f1ad20115bbf8830bf40ab11b?Expires=1673222400&Signature=aKUVrMaCtol5Sr2uyyJ0TBqMSZrasKF0XJHjTRvjo8m1Wgo827o9I16BYW5OrMAcmNIRTf7h3yOWUP4MtOp04bK5WsRfS5pA5RiQUQc6eOWsGVO1XT1DOQ6morPvaR6xtCk~RNgG-sr4IKyrMR3c9r92eQD2iqsR1VlsW8rKirb4qEuYebiPh1FoQbj-~lvCtKZKH0Ynw7jcroMM54aEUhawWd7CfWRq8zBvDD1DPhAPmh6HtxRFgBGGeTfI9O6btQBQFEc8M6oEDijK9x8eVW5ptctEpq8pEGbeDAke4ywBkwg3PKujHYksO3VmaIklVgPSAdZD5oA1XTjhYidrdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") top right -15%/30% no-repeat,
+    url("https://s3-alpha-sig.figma.com/img/905f/e98a/3a30d42f1ad20115bbf8830bf40ab11b?Expires=1673222400&Signature=aKUVrMaCtol5Sr2uyyJ0TBqMSZrasKF0XJHjTRvjo8m1Wgo827o9I16BYW5OrMAcmNIRTf7h3yOWUP4MtOp04bK5WsRfS5pA5RiQUQc6eOWsGVO1XT1DOQ6morPvaR6xtCk~RNgG-sr4IKyrMR3c9r92eQD2iqsR1VlsW8rKirb4qEuYebiPh1FoQbj-~lvCtKZKH0Ynw7jcroMM54aEUhawWd7CfWRq8zBvDD1DPhAPmh6HtxRFgBGGeTfI9O6btQBQFEc8M6oEDijK9x8eVW5ptctEpq8pEGbeDAke4ywBkwg3PKujHYksO3VmaIklVgPSAdZD5oA1XTjhYidrdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") bottom left -20%/35% no-repeat,
+    url("https://s3-alpha-sig.figma.com/img/905f/e98a/3a30d42f1ad20115bbf8830bf40ab11b?Expires=1673222400&Signature=aKUVrMaCtol5Sr2uyyJ0TBqMSZrasKF0XJHjTRvjo8m1Wgo827o9I16BYW5OrMAcmNIRTf7h3yOWUP4MtOp04bK5WsRfS5pA5RiQUQc6eOWsGVO1XT1DOQ6morPvaR6xtCk~RNgG-sr4IKyrMR3c9r92eQD2iqsR1VlsW8rKirb4qEuYebiPh1FoQbj-~lvCtKZKH0Ynw7jcroMM54aEUhawWd7CfWRq8zBvDD1DPhAPmh6HtxRFgBGGeTfI9O6btQBQFEc8M6oEDijK9x8eVW5ptctEpq8pEGbeDAke4ywBkwg3PKujHYksO3VmaIklVgPSAdZD5oA1XTjhYidrdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") bottom right/20% no-repeat;
+}
+.information{
+  font-family: 'Raleway', sans-serif;
+}
+.temperature{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temperature h2{
+  font-size: 144px;
+}
+.temperature p{
+  font-size: 40px;
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8%;
+}
+.location{
+  color: #E7E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 2%;
+  border-radius: 50%;
+  background-color: #6E707A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.details{
+  background-color: #100E1D;
+  color: #A09FB1;
+  font-family: 'Raleway', sans-serif;
+}
+.details h2{
+  font-size: 24px;
+  text-align:start;
+}
+.smallBoxes{
+  display: flex;
+  justify-content: center;
+}
+.bigBoxes{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: stretch;
+
+  width: 60%;
+  margin: 0 auto;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
